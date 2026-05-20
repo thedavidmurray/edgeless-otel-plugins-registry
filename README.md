@@ -29,7 +29,7 @@ Read the [plug-in development guide](https://github.com/thedavidmurray/edgeless-
      "latestVersion": "0.1.0",
      "minAppVersion": "1.2.0",
      "tags": ["panel", "your-category"],
-     "license": "MIT",
+     "license": "Apache-2.0",
      "homepage": "https://github.com/yourorg/edgeless-plugin-coolthing",
      "screenshot": "https://raw.githubusercontent.com/yourorg/edgeless-plugin-coolthing/main/screenshot.png"
    }

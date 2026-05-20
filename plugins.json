@@ -11,8 +11,13 @@
       "repo": "thedavidmurray/edgeless-plugin-service-map",
       "latestVersion": "0.1.0",
       "minAppVersion": "1.2.0",
-      "tags": ["panel", "visualization", "graph", "topology"],
-      "license": "MIT",
+      "tags": [
+        "panel",
+        "visualization",
+        "graph",
+        "topology"
+      ],
+      "license": "Apache-2.0",
       "screenshot": null,
       "homepage": "https://github.com/thedavidmurray/edgeless-plugin-service-map"
     },
@@ -24,8 +29,12 @@
       "repo": "thedavidmurray/edgeless-plugin-example",
       "latestVersion": "0.1.0",
       "minAppVersion": "1.2.0",
-      "tags": ["panel", "example", "scaffold"],
-      "license": "MIT",
+      "tags": [
+        "panel",
+        "example",
+        "scaffold"
+      ],
+      "license": "Apache-2.0",
       "screenshot": null,
       "homepage": "https://github.com/thedavidmurray/edgeless-plugin-example"
     },
@@ -37,8 +46,13 @@
       "repo": "thedavidmurray/edgeless-plugin-static-field",
       "latestVersion": "0.1.0",
       "minAppVersion": "1.2.0",
-      "tags": ["panel", "visualization", "outrun", "density"],
-      "license": "MIT",
+      "tags": [
+        "panel",
+        "visualization",
+        "outrun",
+        "density"
+      ],
+      "license": "Apache-2.0",
       "screenshot": null,
       "homepage": "https://github.com/thedavidmurray/edgeless-plugin-static-field"
     }
