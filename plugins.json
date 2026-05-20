@@ -4,6 +4,19 @@
   "lastUpdated": "2026-05-20",
   "plugins": [
     {
+      "id": "edgeless.plugin.service-map",
+      "name": "Service Map",
+      "description": "Visual graph of services from parent-child span references. Node size = span volume, edge weight = call count, red ring = errors. Click a node to drill into its service.",
+      "author": "edgeless-dev",
+      "repo": "thedavidmurray/edgeless-plugin-service-map",
+      "latestVersion": "0.1.0",
+      "minAppVersion": "1.2.0",
+      "tags": ["panel", "visualization", "graph", "topology"],
+      "license": "MIT",
+      "screenshot": null,
+      "homepage": "https://github.com/thedavidmurray/edgeless-plugin-service-map"
+    },
+    {
       "id": "edgeless.plugin.example",
       "name": "Example Plug-in",
       "description": "Hello-world panel demonstrating the Edgeless OTel Command plug-in API. Fork this to build your own.",
