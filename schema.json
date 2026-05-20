@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Edgeless OTel Plugin Registry",
+  "type": "object",
+  "required": ["version", "plugins"],
+  "properties": {
+    "version": { "type": "integer", "const": 1 },
+    "lastUpdated": { "type": "string", "format": "date" },
+    "plugins": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "description", "repo", "latestVersion", "minAppVersion"],
+        "properties": {
+          "id":            { "type": "string", "pattern": "^[a-z0-9.-]+$" },
+          "name":          { "type": "string" },
+          "description":   { "type": "string" },
+          "author":        { "type": "string" },
+          "repo":          { "type": "string", "description": "GitHub org/repo (no protocol)" },
+          "latestVersion": { "type": "string" },
+          "minAppVersion": { "type": "string" },
+          "tags":          { "type": "array", "items": { "type": "string" } },
+          "license":       { "type": "string" },
+          "screenshot":    { "type": ["string", "null"] },
+          "homepage":      { "type": "string" }
+        }
+      }
+    }
+  }
+}
